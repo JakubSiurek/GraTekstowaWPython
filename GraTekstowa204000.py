@@ -184,7 +184,7 @@ while True:
         szansa_na_wiadomosc = random.randint(1,100) #dzieki modułowi random program losuje liczbę z zakresu od 1 do 100
         if szansa_na_wiadomosc <= 50:
           animowany_dialog("To nie był dobry wybór! Wykładowca pierwszy raz od początku roku sprawdził obecność akurat wtedy kiedy zdecydowałeś się nie iść!\nPonadto każdy nieobecny dzisiaj dostał karne obowiązkowe do przesłania zadanie domowe!\nSzczęście dzisiaj nie jest po twojej stronie!")
-    			time.sleep(2) 
+    	  time.sleep(2) 
           break
         else:
           continue #jezeli funkcja random.randint() wylosuje liczbe wieksza niz 50, program przechodzi dalej
